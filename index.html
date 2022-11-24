@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    
+<title>Arina CV</title>
+    
+<link href="styles.css" rel="stylesheet" />
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+<script type="text/javascript">
+
+      jQuery(function ($){
+        $(".swipebox").swipebox();
+      });
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <div class="info">
+                <img src="ava.jpg" alt="здесь моя фотография" width="200" class="ava"
+                class="ava"/>
+            <div class="info-text">
+                    <h1>Арина Судиловская</h1>
+                    <p>Маркетолог
+                    |
+                    PR-специалист
+                    </p>
+        
+                    <h4>Мои социальные сети</h4>
+                <a href="https://instagram.com/ariadna_ca_?igshid=YmMyMTA2M2Y=" target="_blank">instagram</a>
+                |
+                <a href="//t.me/acandaira" target="_blank">telegram</a>
+            </div>
+            </div>  
+    
+    <div class="card bg-yellow">
+        <h2>Образование</h2>
+        <ul class="list">
+            <li>Гимназия №37</li>
+            <li>Минский государственный лингвистический университет (Специалист по обеспечению межкультурных коммуникаций со специализацией связи с общественностью)</li>
+          </ul>
+            <a href="diplom.html" target="_blank">Диплом о высшем образовании</a>
+            |
+            <a href="raboti.html" target="_blank">Достижения в научных работах</a>
+
+    </div>
+
+    <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+      
+        <tr>
+    
+            <td class="eee">ООО Торговый дом "АВАНТ-ТЕХНО"</td>
+            <td>Маркетолог</td> <td>февраль 2022-февраль 2023</td>  
+        </tr>
+        </table>
+        <a href="avant.html" target="_blank">Список моих достижений в компании</a>
+    </div>       
+       
+    <div class="card bg-red">
+        <h2>Мои навыки</h2>
+        <ul class="list">
+          <li>Знание английского и немецкого языков</li>
+          <li>Контент-маркетинг</li>
+          <li>Ведение социальных сетей</li>
+          <li>Медиа-планирование</li>
+          <li>Работа с CRM-системой</li>
+          <li>Копирайтинг</li>
+          <li>Интернет-коммерция</li>
+          <li>Организация мероприятий</li>
+          <li>Работа с подрядными организациями</li>
+          <li>Уверенный пользователь ПК. Хорошее владение пакетом MS Office (Access, Excel, Power Point, Word), графические редакторы (CorelDraw, Photoshop), работа с электронной почтой. Уверенная работа с разными браузерами (Opera, Firefox, Chrome, Amigo, Internet Explorer)</li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Связаться со мной</h2>
+
+        <form action="mail.php" method="POST">
+          <input type="hidden" name="project_name" value="Arina CV">
+          <input type="hidden" name="admin_email" value="somyanesonya111@mail.ru">
+          <input type="hidden" name="form_subject" value="footer form">
+
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" placeholder="введите ваше имя">
+              </div>
+            <br>
+                <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input type="email" id="name" placeholder="введите ваш email">
+              </div>
+              <br>
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="text">Ваше сообщение</label>
+              
+              <textarea id="text"></textarea>
+            </div>
+              
+              <input class="btn" type="submit" value="Связаться">
+              
+          </form>
+
+    </div>
+        </div>
+<script src="index.js"></script>    
+</body>
+</html>
